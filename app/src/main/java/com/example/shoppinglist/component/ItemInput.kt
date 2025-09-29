@@ -18,6 +18,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.shoppinglist.ui.theme.ShoppingListTheme
 
+
 @Composable
 fun ItemInput(text: String, onTextChange: (String) -> Unit, onAddItem: () -> Unit) {
     Row(
